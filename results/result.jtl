@@ -50,3 +50,15 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1775401242496,617,Login_APILoadTest,500,Internal Server Error,Certiplate_Multi_Admi_Login 1-3,text,false,,333,563,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,617,0,227
 1775401243496,532,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-4,text,true,,11777,564,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,532,0,194
 1775401244495,389,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-5,text,true,,11215,562,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,389,0,190
+1775404210489,430,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-2,text,true,,10075,568,2,3,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,430,0,232
+1775404209490,1959,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-1,text,true,,18363,563,1,2,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,1958,0,274
+1775404209491,2451,Single_Admin_Api_Login,200,OK,Certiplate_Single_Admin_Login 2-1,text,true,,18363,563,1,2,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,2450,0,271
+1775404211488,547,Login_APILoadTest,500,Internal Server Error,Certiplate_Multi_Admi_Login 1-3,text,false,,333,563,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,546,0,202
+1775404212489,514,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-4,text,true,,11777,564,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,514,0,212
+1775404213489,432,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-5,text,true,,11215,562,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,431,0,205
+1775404230528,414,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-2,text,true,,10075,568,2,3,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,414,0,211
+1775404229517,1793,Single_Admin_Api_Login,200,OK,Certiplate_Single_Admin_Login 2-1,text,true,,18363,563,1,2,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,1793,0,195
+1775404229517,2480,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-1,text,true,,18363,563,2,2,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,2480,0,937
+1775404231518,565,Login_APILoadTest,500,Internal Server Error,Certiplate_Multi_Admi_Login 1-3,text,false,,333,563,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,565,0,196
+1775404232512,650,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-4,text,true,,21642,564,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,650,0,224
+1775404233504,436,Login_APILoadTest,200,OK,Certiplate_Multi_Admi_Login 1-5,text,true,,11215,562,1,1,https://api-qa.certiplate.com/api/v3/authenticate/1.1.0,436,0,214
