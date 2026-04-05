@@ -1,11 +1,19 @@
 @echo off
-set JMETER_PATH=C:\Users\ashwi\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
 
-REM Delete old report
-rmdir /s /q ..\results\report
+REM Set JMeter path (make sure it's accessible to Jenkins)
+set JMETER_PATH=C:\JMeter\bin
 
-REM Run test + generate report together
-%JMETER_PATH%\jmeter -n -t ..\testplans\Certiplate_Test_Plan.jmx -l ..\results\result.jtl -e -o ..\results\report
+REM Move to Jenkins workspace
+cd /d %WORKSPACE%
 
-echo HTML report generated at results\report
-pause
+REM Create results folder if not exists
+if not exist results mkdir results
+
+REM Delete old files
+if exist results\result.jtl del /f /q results\result.jtl
+if exist results\report rmdir /s /q results\report
+
+REM Run JMeter test
+%JMETER_PATH%\jmeter -n -t testplans\Certiplate_Test_Plan.jmx -l results\result.jtl -e -o results\report
+
+echo Test execution completed
