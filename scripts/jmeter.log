@@ -1,78 +1,76 @@
-2026-04-05 07:51:58,843 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2026-04-05 07:51:58,893 INFO o.a.j.JMeter: Loading user properties from: C:\Users\ashwi\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
-2026-04-05 07:51:58,893 INFO o.a.j.JMeter: Loading system properties from: C:\Users\ashwi\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
-2026-04-05 07:51:58,909 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2026-04-05 07:51:58,909 INFO o.a.j.JMeter: Version 5.6.3
-2026-04-05 07:51:58,909 INFO o.a.j.JMeter: java.version=17.0.17
-2026-04-05 07:51:58,909 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2026-04-05 07:51:58,911 INFO o.a.j.JMeter: os.name=Windows 11
-2026-04-05 07:51:58,911 INFO o.a.j.JMeter: os.arch=amd64
-2026-04-05 07:51:58,911 INFO o.a.j.JMeter: os.version=10.0
-2026-04-05 07:51:58,911 INFO o.a.j.JMeter: file.encoding=Cp1252
-2026-04-05 07:51:58,911 INFO o.a.j.JMeter: java.awt.headless=true
-2026-04-05 07:51:58,911 INFO o.a.j.JMeter: Max memory     =1073741824
-2026-04-05 07:51:58,911 INFO o.a.j.JMeter: Available Processors =8
-2026-04-05 07:51:58,926 INFO o.a.j.JMeter: Default Locale=English (EN)
-2026-04-05 07:51:58,926 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2026-04-05 07:51:58,926 INFO o.a.j.JMeter: JMeterHome=C:\Users\ashwi\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
-2026-04-05 07:51:58,926 INFO o.a.j.JMeter: user.dir  =C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts
-2026-04-05 07:51:58,928 INFO o.a.j.JMeter: PWD       =C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts
-2026-04-05 07:51:58,929 INFO o.a.j.JMeter: IP: 192.168.1.6 Name: Ashwini FullName: Ashwini
-2026-04-05 07:51:58,956 INFO o.a.j.s.FileServer: Default base='C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts'
-2026-04-05 07:51:58,959 INFO o.a.j.s.FileServer: Set new base='C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts\..\testplans'
-2026-04-05 07:51:59,350 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2026-04-05 07:51:59,411 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2026-04-05 07:51:59,418 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2026-04-05 07:51:59,423 INFO o.a.j.s.SaveService: Loading file: ..\testplans\Certiplate_TestPlan.jmx
-2026-04-05 07:51:59,513 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-04-05 07:51:59,513 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-04-05 07:51:59,513 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-04-05 07:51:59,513 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2026-04-05 07:51:59,513 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2026-04-05 07:51:59,513 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2026-04-05 07:51:59,603 INFO o.a.j.JMeter: Creating summariser <summary>
-2026-04-05 07:51:59,631 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2026-04-05 07:51:59,632 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-04-05 07:51:59,632 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2026-04-05 07:51:59,640 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2026-04-05 07:51:59,640 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2026-04-05 07:51:59,773 INFO o.a.j.JMeter: Running test (1775355719773)
-2026-04-05 07:51:59,794 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Certiplate_TestPlan
-2026-04-05 07:51:59,794 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Certiplate_TestPlan.
-2026-04-05 07:51:59,794 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2026-04-05 07:51:59,795 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=5 delayedStart=false
-2026-04-05 07:51:59,807 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2026-04-05 07:51:59,807 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2026-04-05 07:51:59,893 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-1
-2026-04-05 07:51:59,895 INFO o.a.j.s.FileServer: Stored: C:/Users/ashwi/Testing/PerformanceTesting/Certiplate_PerformanceTesting/data/Adminlogincredentials.csv
-2026-04-05 07:51:59,949 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Ashwini
-2026-04-05 07:51:59,960 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2026-04-05 07:51:59,962 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2026-04-05 07:51:59,962 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2026-04-05 07:51:59,962 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2026-04-05 07:51:59,962 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2026-04-05 07:52:00,171 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2026-04-05 07:52:00,182 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2026-04-05 07:52:00,182 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2026-04-05 07:52:00,371 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2026-04-05 07:52:00,379 INFO o.a.j.u.SSLManager: KeyStore created OK
-2026-04-05 07:52:00,379 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2026-04-05 07:52:00,887 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-2
-2026-04-05 07:52:01,886 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-3
-2026-04-05 07:52:02,888 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-4
-2026-04-05 07:52:03,501 INFO o.a.j.r.Summariser: summary +      1 in 00:00:04 =    0.3/s Avg:  3380 Min:  3380 Max:  3380 Err:     1 (100.00%) Active: 4 Started: 4 Finished: 0
-2026-04-05 07:52:03,501 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-1
-2026-04-05 07:52:03,502 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-1
-2026-04-05 07:52:03,521 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-3
-2026-04-05 07:52:03,522 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-3
-2026-04-05 07:52:03,810 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-4
-2026-04-05 07:52:03,810 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-4
-2026-04-05 07:52:03,884 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-5
-2026-04-05 07:52:04,715 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-5
-2026-04-05 07:52:04,715 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-5
-2026-04-05 07:52:05,438 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-2
-2026-04-05 07:52:05,438 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-2
-2026-04-05 07:52:05,438 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2026-04-05 07:52:05,438 INFO o.a.j.s.FileServer: Close: C:/Users/ashwi/Testing/PerformanceTesting/Certiplate_PerformanceTesting/data/Adminlogincredentials.csv
-2026-04-05 07:52:05,455 INFO o.a.j.r.Summariser: summary +      4 in 00:00:02 =    2.0/s Avg:  1986 Min:   831 Max:  4562 Err:     1 (25.00%) Active: 0 Started: 5 Finished: 5
-2026-04-05 07:52:05,755 INFO o.a.j.r.Summariser: summary =      5 in 00:00:06 =    0.8/s Avg:  2265 Min:   831 Max:  4562 Err:     2 (40.00%)
+2026-04-05 18:47:16,757 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-04-05 18:47:16,899 INFO o.a.j.JMeter: Loading user properties from: C:\Users\ashwi\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2026-04-05 18:47:16,899 INFO o.a.j.JMeter: Loading system properties from: C:\Users\ashwi\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: Version 5.6.3
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: java.version=17.0.17
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: os.name=Windows 11
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: os.arch=amd64
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: os.version=10.0
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: java.awt.headless=true
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-04-05 18:47:16,964 INFO o.a.j.JMeter: Available Processors =8
+2026-04-05 18:47:16,994 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-04-05 18:47:16,994 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-04-05 18:47:16,994 INFO o.a.j.JMeter: JMeterHome=C:\Users\ashwi\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2026-04-05 18:47:17,008 INFO o.a.j.JMeter: user.dir  =C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts
+2026-04-05 18:47:17,010 INFO o.a.j.JMeter: PWD       =C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts
+2026-04-05 18:47:17,014 INFO o.a.j.JMeter: IP: 192.168.1.6 Name: Ashwini FullName: Ashwini
+2026-04-05 18:47:17,271 INFO o.a.j.s.FileServer: Default base='C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts'
+2026-04-05 18:47:17,282 INFO o.a.j.s.FileServer: Set new base='C:\Users\ashwi\Testing\PerformanceTesting\Certiplate_PerformanceTesting\scripts\..\testplans'
+2026-04-05 18:47:18,476 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-04-05 18:47:18,580 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-04-05 18:47:18,596 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-04-05 18:47:18,615 INFO o.a.j.s.SaveService: Loading file: ..\testplans\Certiplate_TestPlan.jmx
+2026-04-05 18:47:19,089 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-05 18:47:19,091 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-05 18:47:19,091 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-05 18:47:19,091 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-05 18:47:19,091 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-04-05 18:47:19,091 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-04-05 18:47:19,251 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-04-05 18:47:19,351 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-04-05 18:47:19,352 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-04-05 18:47:19,354 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-04-05 18:47:19,384 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-04-05 18:47:19,384 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-04-05 18:47:19,700 INFO o.a.j.JMeter: Running test (1775395039700)
+2026-04-05 18:47:19,725 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Certiplate_TestPlan
+2026-04-05 18:47:19,725 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Certiplate_TestPlan.
+2026-04-05 18:47:19,725 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-04-05 18:47:19,725 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=5 delayedStart=false
+2026-04-05 18:47:19,741 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-04-05 18:47:19,741 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-04-05 18:47:19,879 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-1
+2026-04-05 18:47:19,885 INFO o.a.j.s.FileServer: Stored: C:/Users/ashwi/Testing/PerformanceTesting/Certiplate_PerformanceTesting/data/Adminlogincredentials.csv
+2026-04-05 18:47:19,920 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Ashwini
+2026-04-05 18:47:19,927 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-04-05 18:47:19,930 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-04-05 18:47:19,930 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-04-05 18:47:19,930 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-04-05 18:47:19,930 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-04-05 18:47:20,481 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-04-05 18:47:20,502 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-04-05 18:47:20,502 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-04-05 18:47:20,789 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-04-05 18:47:20,803 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-04-05 18:47:20,803 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-04-05 18:47:20,873 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-2
+2026-04-05 18:47:21,873 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-3
+2026-04-05 18:47:22,869 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-4
+2026-04-05 18:47:23,867 INFO o.a.j.t.JMeterThread: Thread started: Certiplate_TestPlan 1-5
+2026-04-05 18:47:24,399 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-5
+2026-04-05 18:47:24,399 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-5
+2026-04-05 18:47:24,399 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-2
+2026-04-05 18:47:24,399 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-2
+2026-04-05 18:47:24,530 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-4
+2026-04-05 18:47:24,534 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-4
+2026-04-05 18:47:24,858 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-1
+2026-04-05 18:47:24,858 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-1
+2026-04-05 18:47:24,995 INFO o.a.j.t.JMeterThread: Thread is done: Certiplate_TestPlan 1-3
+2026-04-05 18:47:24,995 INFO o.a.j.t.JMeterThread: Thread finished: Certiplate_TestPlan 1-3
+2026-04-05 18:47:25,004 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-04-05 18:47:25,004 INFO o.a.j.s.FileServer: Close: C:/Users/ashwi/Testing/PerformanceTesting/Certiplate_PerformanceTesting/data/Adminlogincredentials.csv
+2026-04-05 18:47:25,013 INFO o.a.j.r.Summariser: summary =      5 in 00:00:05 =    0.9/s Avg:  2701 Min:   528 Max:  4669 Err:     2 (40.00%)
